@@ -1,173 +1,815 @@
 {
  "captures": [],
- "affiches-16-9": [],
- "affiches-9-16": [],
+ "affiches-4-5": [
+  {
+   "fichier": "visuels/affiches-4-5/01-taches-moins-de-chaos.png",
+   "apercu": "apercus/affiches-4-5/01-taches-moins-de-chaos.jpg",
+   "nom": "Tâches, moins de chaos",
+   "type": "image",
+   "l": 1122,
+   "h": 1402,
+   "octets": 1829196
+  },
+  {
+   "fichier": "visuels/affiches-4-5/02-rituels-du-temps-pour-vous.png",
+   "apercu": "apercus/affiches-4-5/02-rituels-du-temps-pour-vous.jpg",
+   "nom": "Rituels, du temps pour vous",
+   "type": "image",
+   "l": 1122,
+   "h": 1402,
+   "octets": 1842809
+  },
+  {
+   "fichier": "visuels/affiches-4-5/03-objectifs-petits-pas.png",
+   "apercu": "apercus/affiches-4-5/03-objectifs-petits-pas.jpg",
+   "nom": "Objectifs, petits pas",
+   "type": "image",
+   "l": 1122,
+   "h": 1402,
+   "octets": 1898543
+  },
+  {
+   "fichier": "visuels/affiches-4-5/04-recompenses-chaque-progres.png",
+   "apercu": "apercus/affiches-4-5/04-recompenses-chaque-progres.jpg",
+   "nom": "Récompenses, chaque progrès",
+   "type": "image",
+   "l": 1122,
+   "h": 1402,
+   "octets": 2180099
+  },
+  {
+   "fichier": "visuels/affiches-4-5/05-decouvrir-telechargez-forgeme.png",
+   "apercu": "apercus/affiches-4-5/05-decouvrir-telechargez-forgeme.jpg",
+   "nom": "Découvrir, téléchargez ForgeMe",
+   "type": "image",
+   "l": 1122,
+   "h": 1402,
+   "octets": 1885201
+  }
+ ],
+ "affiches-9-16": [
+  {
+   "fichier": "visuels/affiches-9-16/02-reprendre.png",
+   "apercu": "apercus/affiches-9-16/02-reprendre.jpg",
+   "nom": "Reprendre",
+   "type": "image",
+   "l": 941,
+   "h": 1672,
+   "octets": 2345777
+  },
+  {
+   "fichier": "visuels/affiches-9-16/04-journal.png",
+   "apercu": "apercus/affiches-9-16/04-journal.jpg",
+   "nom": "Journal",
+   "type": "image",
+   "l": 941,
+   "h": 1672,
+   "octets": 2086691
+  },
+  {
+   "fichier": "visuels/affiches-9-16/07-limites.png",
+   "apercu": "apercus/affiches-9-16/07-limites.jpg",
+   "nom": "Limites",
+   "type": "image",
+   "l": 941,
+   "h": 1672,
+   "octets": 2297912
+  },
+  {
+   "fichier": "visuels/affiches-9-16/08-creneau.png",
+   "apercu": "apercus/affiches-9-16/08-creneau.jpg",
+   "nom": "Créneau",
+   "type": "image",
+   "l": 941,
+   "h": 1672,
+   "octets": 2150739
+  },
+  {
+   "fichier": "visuels/affiches-9-16/10-regarder.png",
+   "apercu": "apercus/affiches-9-16/10-regarder.jpg",
+   "nom": "Regarder",
+   "type": "image",
+   "l": 941,
+   "h": 1672,
+   "octets": 2164226
+  }
+ ],
+ "affiches-16-9": [
+  {
+   "fichier": "visuels/affiches-16-9/07-le-canape-magnetique.png",
+   "apercu": "apercus/affiches-16-9/07-le-canape-magnetique.jpg",
+   "nom": "Le canapé magnétique",
+   "type": "image",
+   "l": 1672,
+   "h": 941,
+   "octets": 2343105
+  },
+  {
+   "fichier": "visuels/affiches-16-9/08-la-victoire-trop-grande.png",
+   "apercu": "apercus/affiches-16-9/08-la-victoire-trop-grande.jpg",
+   "nom": "La victoire trop grande",
+   "type": "image",
+   "l": 1672,
+   "h": 941,
+   "octets": 2257952
+  },
+  {
+   "fichier": "visuels/affiches-16-9/09-la-pluie-de-taches.png",
+   "apercu": "apercus/affiches-16-9/09-la-pluie-de-taches.jpg",
+   "nom": "La pluie de tâches",
+   "type": "image",
+   "l": 1672,
+   "h": 940,
+   "octets": 2276311
+  },
+  {
+   "fichier": "visuels/affiches-16-9/11-demarrer.png",
+   "apercu": "apercus/affiches-16-9/11-demarrer.jpg",
+   "nom": "Démarrer",
+   "type": "image",
+   "l": 1672,
+   "h": 941,
+   "octets": 2104293
+  },
+  {
+   "fichier": "visuels/affiches-16-9/12-regulier.png",
+   "apercu": "apercus/affiches-16-9/12-regulier.jpg",
+   "nom": "Régulier",
+   "type": "image",
+   "l": 1672,
+   "h": 941,
+   "octets": 2200107
+  },
+  {
+   "fichier": "visuels/affiches-16-9/14-repos.png",
+   "apercu": "apercus/affiches-16-9/14-repos.jpg",
+   "nom": "Repos",
+   "type": "image",
+   "l": 1672,
+   "h": 941,
+   "octets": 2428942
+  },
+  {
+   "fichier": "visuels/affiches-16-9/16-compter.png",
+   "apercu": "apercus/affiches-16-9/16-compter.jpg",
+   "nom": "Compter",
+   "type": "image",
+   "l": 1672,
+   "h": 941,
+   "octets": 2170401
+  },
+  {
+   "fichier": "visuels/affiches-16-9/17-liberer.png",
+   "apercu": "apercus/affiches-16-9/17-liberer.jpg",
+   "nom": "Libérer",
+   "type": "image",
+   "l": 1672,
+   "h": 941,
+   "octets": 2105195
+  }
+ ],
  "mascotte": [
   {
    "fichier": "visuels/mascotte/aurevoir.png",
+   "apercu": "apercus/mascotte/aurevoir.png",
    "nom": "Au revoir",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 41995
+   "l": 1080,
+   "h": 1080,
+   "octets": 589568
   },
   {
    "fichier": "visuels/mascotte/champion.png",
+   "apercu": "apercus/mascotte/champion.png",
    "nom": "Champion",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 50818
+   "l": 1080,
+   "h": 1080,
+   "octets": 758852
   },
   {
    "fichier": "visuels/mascotte/coeur.png",
+   "apercu": "apercus/mascotte/coeur.png",
    "nom": "Cœur",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 41856
+   "l": 1080,
+   "h": 1080,
+   "octets": 559583
   },
   {
    "fichier": "visuels/mascotte/debranche.png",
+   "apercu": "apercus/mascotte/debranche.png",
    "nom": "Débranché",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 42646
+   "l": 1080,
+   "h": 1080,
+   "octets": 622119
   },
   {
    "fichier": "visuels/mascotte/encourage.png",
+   "apercu": "apercus/mascotte/encourage.png",
    "nom": "Encourage",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 40860
+   "l": 1080,
+   "h": 1080,
+   "octets": 557212
   },
   {
    "fichier": "visuels/mascotte/endormi.png",
+   "apercu": "apercus/mascotte/endormi.png",
    "nom": "Endormi",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 37615
+   "l": 1080,
+   "h": 1080,
+   "octets": 527626
   },
   {
    "fichier": "visuels/mascotte/fier.png",
+   "apercu": "apercus/mascotte/fier.png",
    "nom": "Fier",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 43351
+   "l": 1080,
+   "h": 1080,
+   "octets": 608186
   },
   {
    "fichier": "visuels/mascotte/gardien.png",
+   "apercu": "apercus/mascotte/gardien.png",
    "nom": "Gardien",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 41702
+   "l": 1080,
+   "h": 1080,
+   "octets": 596690
   },
   {
    "fichier": "visuels/mascotte/lecteur.png",
+   "apercu": "apercus/mascotte/lecteur.png",
    "nom": "Lecteur",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 42345
+   "l": 1080,
+   "h": 1080,
+   "octets": 596218
   },
   {
    "fichier": "visuels/mascotte/neutre.png",
+   "apercu": "apercus/mascotte/neutre.png",
    "nom": "Neutre",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 41775
+   "l": 1080,
+   "h": 1080,
+   "octets": 571134
   },
   {
    "fichier": "visuels/mascotte/oups.png",
+   "apercu": "apercus/mascotte/oups.png",
    "nom": "Oups",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 39329
+   "l": 1080,
+   "h": 1080,
+   "octets": 549434
   },
   {
    "fichier": "visuels/mascotte/pensif.png",
+   "apercu": "apercus/mascotte/pensif.png",
    "nom": "Pensif",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 40680
+   "l": 1080,
+   "h": 1080,
+   "octets": 548242
   },
   {
    "fichier": "visuels/mascotte/premium.png",
+   "apercu": "apercus/mascotte/premium.png",
    "nom": "Premium",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 40935
+   "l": 1080,
+   "h": 1080,
+   "octets": 566316
   },
   {
    "fichier": "visuels/mascotte/reveil.png",
+   "apercu": "apercus/mascotte/reveil.png",
    "nom": "Réveil",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 48167
+   "l": 1080,
+   "h": 1080,
+   "octets": 676069
   },
   {
    "fichier": "visuels/mascotte/salut.png",
+   "apercu": "apercus/mascotte/salut.png",
    "nom": "Salut",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 43376
+   "l": 1080,
+   "h": 1080,
+   "octets": 601806
   },
   {
    "fichier": "visuels/mascotte/support.png",
+   "apercu": "apercus/mascotte/support.png",
    "nom": "Support",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 45106
+   "l": 1080,
+   "h": 1080,
+   "octets": 669589
   },
   {
    "fichier": "visuels/mascotte/travail.png",
+   "apercu": "apercus/mascotte/travail.png",
    "nom": "Travail",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 48164
+   "l": 1080,
+   "h": 1080,
+   "octets": 685487
   },
   {
    "fichier": "visuels/mascotte/voyageur.png",
+   "apercu": "apercus/mascotte/voyageur.png",
    "nom": "Voyageur",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 51262
+   "l": 1080,
+   "h": 1080,
+   "octets": 725676
   },
   {
    "fichier": "visuels/mascotte/zen.png",
+   "apercu": "apercus/mascotte/zen.png",
    "nom": "Zen",
    "type": "image",
-   "l": 480,
-   "h": 480,
-   "octets": 40237
+   "l": 1080,
+   "h": 1080,
+   "octets": 574973
   }
  ],
- "icone": [
+ "badges": [
   {
-   "fichier": "visuels/icone/forgeme-icone-1024.png",
-   "nom": "Icône 1024 px",
+   "fichier": "visuels/badges/01-novice.png",
+   "apercu": "apercus/badges/01-novice.png",
+   "nom": "Novice",
    "type": "image",
    "l": 1024,
    "h": 1024,
-   "octets": 56472
+   "octets": 1168340
+  },
+  {
+   "fichier": "visuels/badges/02-apprenti.png",
+   "apercu": "apercus/badges/02-apprenti.png",
+   "nom": "Apprenti",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1136758
+  },
+  {
+   "fichier": "visuels/badges/03-explorateur.png",
+   "apercu": "apercus/badges/03-explorateur.png",
+   "nom": "Explorateur",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1188131
+  },
+  {
+   "fichier": "visuels/badges/04-aventurier.png",
+   "apercu": "apercus/badges/04-aventurier.png",
+   "nom": "Aventurier",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1227073
+  },
+  {
+   "fichier": "visuels/badges/05-expert.png",
+   "apercu": "apercus/badges/05-expert.png",
+   "nom": "Expert",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1078970
+  },
+  {
+   "fichier": "visuels/badges/06-maitre.png",
+   "apercu": "apercus/badges/06-maitre.png",
+   "nom": "Maître",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1097211
+  },
+  {
+   "fichier": "visuels/badges/07-champion.png",
+   "apercu": "apercus/badges/07-champion.png",
+   "nom": "Champion",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1171981
+  },
+  {
+   "fichier": "visuels/badges/08-legende.png",
+   "apercu": "apercus/badges/08-legende.png",
+   "nom": "Légende",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1295880
+  },
+  {
+   "fichier": "visuels/badges/09-titan.png",
+   "apercu": "apercus/badges/09-titan.png",
+   "nom": "Titan",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1186634
+  },
+  {
+   "fichier": "visuels/badges/10-immortel.png",
+   "apercu": "apercus/badges/10-immortel.png",
+   "nom": "Immortel",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1287499
+  },
+  {
+   "fichier": "visuels/badges/11-divin.png",
+   "apercu": "apercus/badges/11-divin.png",
+   "nom": "Divin",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1267412
+  },
+  {
+   "fichier": "visuels/badges/12-absolu.png",
+   "apercu": "apercus/badges/12-absolu.png",
+   "nom": "Absolu",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1344118
+  },
+  {
+   "fichier": "visuels/badges/13-forgeron.png",
+   "apercu": "apercus/badges/13-forgeron.png",
+   "nom": "Forgeron",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1409445
+  }
+ ],
+ "exploits": [
+  {
+   "fichier": "visuels/exploits/01-etincelle.png",
+   "apercu": "apercus/exploits/01-etincelle.png",
+   "nom": "Étincelle",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 193821
+  },
+  {
+   "fichier": "visuels/exploits/02-flamme.png",
+   "apercu": "apercus/exploits/02-flamme.png",
+   "nom": "Flamme",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 212594
+  },
+  {
+   "fichier": "visuels/exploits/03-brasier.png",
+   "apercu": "apercus/exploits/03-brasier.png",
+   "nom": "Brasier",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 213817
+  },
+  {
+   "fichier": "visuels/exploits/04-fournaise.png",
+   "apercu": "apercus/exploits/04-fournaise.png",
+   "nom": "Fournaise",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 210490
+  },
+  {
+   "fichier": "visuels/exploits/05-premier-coup.png",
+   "apercu": "apercus/exploits/05-premier-coup.png",
+   "nom": "Premier coup",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 192376
+  },
+  {
+   "fichier": "visuels/exploits/06-centurion.png",
+   "apercu": "apercus/exploits/06-centurion.png",
+   "nom": "Centurion",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 205909
+  },
+  {
+   "fichier": "visuels/exploits/07-mille-coups.png",
+   "apercu": "apercus/exploits/07-mille-coups.png",
+   "nom": "Mille coups",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 205296
+  },
+  {
+   "fichier": "visuels/exploits/08-journee-parfaite.png",
+   "apercu": "apercus/exploits/08-journee-parfaite.png",
+   "nom": "Journée parfaite",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 204362
+  },
+  {
+   "fichier": "visuels/exploits/09-semaine-parfaite.png",
+   "apercu": "apercus/exploits/09-semaine-parfaite.png",
+   "nom": "Semaine parfaite",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 211830
+  },
+  {
+   "fichier": "visuels/exploits/10-leve-tot.png",
+   "apercu": "apercus/exploits/10-leve-tot.png",
+   "nom": "Lève-tôt",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 200133
+  },
+  {
+   "fichier": "visuels/exploits/11-premier-objectif.png",
+   "apercu": "apercus/exploits/11-premier-objectif.png",
+   "nom": "Premier objectif",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 210695
+  },
+  {
+   "fichier": "visuels/exploits/12-batisseur.png",
+   "apercu": "apercus/exploits/12-batisseur.png",
+   "nom": "Bâtisseur",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 216530
+  },
+  {
+   "fichier": "visuels/exploits/13-rituel-30.png",
+   "apercu": "apercus/exploits/13-rituel-30.png",
+   "nom": "Rituel 30 jours",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 221422
+  },
+  {
+   "fichier": "visuels/exploits/14-gardien-rituel.png",
+   "apercu": "apercus/exploits/14-gardien-rituel.png",
+   "nom": "Gardien rituel",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 220200
+  },
+  {
+   "fichier": "visuels/exploits/15-premier-journal.png",
+   "apercu": "apercus/exploits/15-premier-journal.png",
+   "nom": "Premier journal",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 228890
+  },
+  {
+   "fichier": "visuels/exploits/16-premiere-idee.png",
+   "apercu": "apercus/exploits/16-premiere-idee.png",
+   "nom": "Première idée",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 222603
+  },
+  {
+   "fichier": "visuels/exploits/17-premier-voyage.png",
+   "apercu": "apercus/exploits/17-premier-voyage.png",
+   "nom": "Premier voyage",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 219416
+  },
+  {
+   "fichier": "visuels/exploits/18-premier-pack.png",
+   "apercu": "apercus/exploits/18-premier-pack.png",
+   "nom": "Premier pack",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 222474
+  },
+  {
+   "fichier": "visuels/exploits/19-memoire.png",
+   "apercu": "apercus/exploits/19-memoire.png",
+   "nom": "Mémoire",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 225386
+  },
+  {
+   "fichier": "visuels/exploits/20-le-retour.png",
+   "apercu": "apercus/exploits/20-le-retour.png",
+   "nom": "Le retour",
+   "type": "image",
+   "l": 512,
+   "h": 512,
+   "octets": 218044
+  }
+ ],
+ "icones-app": [
+  {
+   "fichier": "visuels/icones-app/01-classique.png",
+   "apercu": "apercus/icones-app/01-classique.jpg",
+   "nom": "Classique",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 32170
+  },
+  {
+   "fichier": "visuels/icones-app/02-nuit.png",
+   "apercu": "apercus/icones-app/02-nuit.jpg",
+   "nom": "Nuit",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 278071
+  },
+  {
+   "fichier": "visuels/icones-app/03-or.png",
+   "apercu": "apercus/icones-app/03-or.jpg",
+   "nom": "Or",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 359837
+  },
+  {
+   "fichier": "visuels/icones-app/04-forge.png",
+   "apercu": "apercus/icones-app/04-forge.jpg",
+   "nom": "Forge",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 1690800
+  },
+  {
+   "fichier": "visuels/icones-app/05-blanc.png",
+   "apercu": "apercus/icones-app/05-blanc.jpg",
+   "nom": "Blanc",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 114036
+  },
+  {
+   "fichier": "visuels/icones-app/06-noel.png",
+   "apercu": "apercus/icones-app/06-noel.jpg",
+   "nom": "Noël",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 37354
+  },
+  {
+   "fichier": "visuels/icones-app/07-nouvel-an.png",
+   "apercu": "apercus/icones-app/07-nouvel-an.jpg",
+   "nom": "Nouvel an",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 300951
+  },
+  {
+   "fichier": "visuels/icones-app/08-saint-valentin.png",
+   "apercu": "apercus/icones-app/08-saint-valentin.jpg",
+   "nom": "Saint-Valentin",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 56962
+  },
+  {
+   "fichier": "visuels/icones-app/09-halloween.png",
+   "apercu": "apercus/icones-app/09-halloween.jpg",
+   "nom": "Halloween",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 314580
+  },
+  {
+   "fichier": "visuels/icones-app/10-ete.png",
+   "apercu": "apercus/icones-app/10-ete.jpg",
+   "nom": "Été",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 48164
+  },
+  {
+   "fichier": "visuels/icones-app/11-ramadan-aid.png",
+   "apercu": "apercus/icones-app/11-ramadan-aid.jpg",
+   "nom": "Ramadan / Aïd",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 307672
+  }
+ ],
+ "planches": [
+  {
+   "fichier": "visuels/planches/01-icones-app.png",
+   "apercu": "apercus/planches/01-icones-app.jpg",
+   "nom": "Icônes de l'app",
+   "type": "image",
+   "l": 3088,
+   "h": 600,
+   "octets": 347295
+  },
+  {
+   "fichier": "visuels/planches/02-mascotte.png",
+   "apercu": "apercus/planches/02-mascotte.jpg",
+   "nom": "Mascotte",
+   "type": "image",
+   "l": 5320,
+   "h": 310,
+   "octets": 994143
+  },
+  {
+   "fichier": "visuels/planches/03-badges-progression.png",
+   "apercu": "apercus/planches/03-badges-progression.jpg",
+   "nom": "Badges de progression",
+   "type": "image",
+   "l": 2400,
+   "h": 1500,
+   "octets": 2424182
+  },
+  {
+   "fichier": "visuels/planches/04-exploits.png",
+   "apercu": "apercus/planches/04-exploits.jpg",
+   "nom": "Exploits",
+   "type": "image",
+   "l": 2400,
+   "h": 1840,
+   "octets": 2296041
+  },
+  {
+   "fichier": "visuels/planches/05-banniere-google-play.png",
+   "apercu": "apercus/planches/05-banniere-google-play.jpg",
+   "nom": "Bannière Google Play",
+   "type": "image",
+   "l": 1024,
+   "h": 500,
+   "octets": 853237
+  },
+  {
+   "fichier": "visuels/planches/06-apercus-app.png",
+   "apercu": "apercus/planches/06-apercus-app.jpg",
+   "nom": "Aperçus de l'app",
+   "type": "image",
+   "l": 1905,
+   "h": 825,
+   "octets": 1906113
+  },
+  {
+   "fichier": "visuels/planches/07-ecran-de-demarrage-4k.png",
+   "apercu": "apercus/planches/07-ecran-de-demarrage-4k.jpg",
+   "nom": "Écran de démarrage 4K",
+   "type": "image",
+   "l": 2160,
+   "h": 3840,
+   "octets": 8214345
   }
  ],
  "zip": {
   "fichier": "ForgeMe-visuels.zip",
-  "octets": 858641
+  "octets": 90858092
  }
 }

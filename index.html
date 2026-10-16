@@ -6,7 +6,7 @@
 <title>ForgeMe, visuels de lancement</title>
 <meta name="description" content="Captures, affiches, mascotte et icône de la nouvelle version de ForgeMe, à télécharger.">
 <meta name="robots" content="noindex">
-<link rel="icon" href="visuels/icone/forgeme-icone-1024.png">
+<link rel="icon" href="apercus/icones-app/01-classique.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -128,6 +128,10 @@ section.bloc { padding: 120px 0; }
 .paysage .diapo { width: min(880px, 86vw); }
 .paysage .diapo img, .paysage .diapo video { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--rayon-carte); box-shadow: var(--ombre); }
 
+.vertical .diapo { width: min(400px, 78vw); }
+.vertical .diapo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--rayon-carte); box-shadow: var(--ombre); }
+.planches .diapo { width: min(1000px, 88vw); }
+.planches .diapo img { width: 100%; height: auto; border-radius: var(--rayon-carte); box-shadow: var(--ombre); background: #fff; }
 .portrait .diapo { width: min(320px, 70vw); }
 .portrait .diapo img, .portrait .diapo video { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: var(--rayon-carte); box-shadow: 0 30px 60px rgba(0,0,0,.5); }
 
@@ -148,8 +152,13 @@ section.bloc { padding: 120px 0; }
 
 /* Grilles */
 .grille { max-width: var(--largeur); margin: 0 auto; padding: 0 22px; display: grid; gap: 20px; }
-.grille.mascottes { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
-.grille.icones { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.grille.mascottes, .grille.badges { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.grille.icones { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+.grille.exploits { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+section.bloc.fond-noir .carte { background: #1C1C1E; box-shadow: none; }
+section.bloc.fond-noir .carte .nom { color: #F5F5F7; }
+.fond-noir .carte .taille { color: #8E8E93; }
+.fond-noir .rond { color: var(--rose-clair); background: rgba(255,77,110,.16); }
 .carte {
   background: var(--blanc); border-radius: var(--rayon-carte); padding: 26px 20px 18px; display: flex; flex-direction: column; align-items: center;
   box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: transform .4s var(--courbe), box-shadow .4s var(--courbe);
@@ -157,7 +166,10 @@ section.bloc { padding: 120px 0; }
 .carte:hover { transform: translateY(-4px); box-shadow: var(--ombre); }
 .carte .visuel { width: 100%; aspect-ratio: 1; display: grid; place-items: center; cursor: zoom-in; }
 .carte .visuel img { max-height: 100%; object-fit: contain; }
-.grille.icones .carte .visuel img { width: 62%; border-radius: 22%; box-shadow: 0 10px 30px rgba(0,0,0,.14); }
+.grille.icones .carte .visuel img { width: 64%; border-radius: 22.5%; box-shadow: 0 10px 30px rgba(0,0,0,.16); }
+.grille.mascottes .carte .visuel img { width: 86%; }
+.grille.badges .carte .visuel img { width: 100%; max-height: none; transform: scale(1.15); }
+.grille.exploits .carte .visuel img { width: 80%; }
 .carte .pied { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 14px; }
 .carte .nom { font-size: 15px; font-weight: 500; }
 .carte .taille { font-size: 12px; color: var(--gris-texte); margin-top: 2px; white-space: nowrap; }
@@ -224,7 +236,7 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
   .vitrine-hero img:nth-child(3) { left: calc(50% + 30px); }
   .entete { margin-bottom: 36px; }
   .entete .commandes .fleche { display: none; }
-  .grille.mascottes { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .grille.mascottes, .grille.badges, .grille.exploits, .grille.icones { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .loupe .prec, .loupe .suiv { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -238,7 +250,7 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
 
 <header class="barre">
   <div class="barre-dedans">
-    <a class="marque" href="#haut"><img src="visuels/icone/forgeme-icone-1024.png" alt=""><span>ForgeMe<b>.</b></span></a>
+    <a class="marque" href="#haut"><img src="apercus/icones-app/01-classique.jpg" alt=""><span>ForgeMe<b>.</b></span></a>
     <nav class="liens" id="liens"></nav>
     <a class="pilule" id="zip-barre" href="ForgeMe-visuels.zip" download>Tout télécharger</a>
   </div>
@@ -247,10 +259,10 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
 <main id="haut">
   <section class="ouverture">
     <div class="halo"></div>
-    <img class="icone-hero" src="visuels/icone/forgeme-icone-1024.png" alt="Icône de ForgeMe">
+    <img class="icone-hero" src="apercus/icones-app/01-classique.jpg" alt="Icône de ForgeMe">
     <div class="surtitre">Visuels de lancement</div>
     <h1>La nouvelle<br><span>ForgeMe.</span></h1>
-    <p class="chapo">Captures de la nouvelle version, affiches, mascotte et icône. Tout ce qu'il faut pour les vidéos et les publications, au même endroit.</p>
+    <p class="chapo">Captures de la nouvelle version, affiches, mascotte, badges et icônes. Tout ce qu'il faut pour les vidéos et les publications, au même endroit.</p>
     <div class="actions">
       <a class="pilule grande" id="zip-hero" href="ForgeMe-visuels.zip" download>Tout télécharger</a>
       <a class="pilule grande claire" href="#captures">Voir les visuels</a>
@@ -295,10 +307,14 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
 
   var SECTIONS = [
     { cle: 'captures', ancre: 'captures', menu: 'Captures', etiquette: 'Captures', titre: 'La nouvelle version, écran par écran.', texte: "Des captures prises sur iPhone, prêtes pour le montage et les publications.", fond: 'fond-gris', forme: 'carrousel', classe: 'captures' },
-    { cle: 'affiches-16-9', ancre: 'affiches-paysage', menu: 'Affiches 16:9', etiquette: 'Affiches 16:9', titre: 'Pour les écrans larges.', texte: "Pistes d'affiches autour de la mascotte, au format paysage.", fond: '', forme: 'carrousel', classe: 'paysage', points: true },
-    { cle: 'affiches-9-16', ancre: 'affiches-portrait', menu: 'Affiches 9:16', etiquette: 'Affiches 9:16', titre: 'Pensées pour le pouce.', texte: "Les mêmes pistes au format vertical, pour les stories, Reels et TikTok.", fond: 'fond-noir', forme: 'carrousel', classe: 'portrait' },
-    { cle: 'mascotte', ancre: 'mascotte', menu: 'Mascotte', etiquette: 'Mascotte', titre: 'Toutes ses humeurs.', texte: "En PNG sur fond transparent, à poser directement dans les vidéos.", fond: 'fond-gris', forme: 'grille', classe: 'mascottes' },
-    { cle: 'icone', ancre: 'icone', menu: 'Icône', etiquette: 'Icône', titre: "L'icône, dans toutes ses versions.", texte: "À utiliser comme logo de l'application.", fond: '', forme: 'grille', classe: 'icones' }
+    { cle: 'affiches-4-5', ancre: 'affiches', menu: 'Affiches', etiquette: 'Affiches 4:5', titre: 'Une affiche par promesse.', texte: "Le format des publications Instagram et Facebook. Tâches, rituels, objectifs, récompenses.", fond: '', forme: 'carrousel', classe: 'vertical' },
+    { cle: 'affiches-9-16', ancre: 'affiches-portrait', etiquette: 'Affiches 9:16', titre: 'Pensées pour le pouce.', texte: "Au format vertical, pour les stories, Reels et TikTok.", fond: 'fond-noir', forme: 'carrousel', classe: 'portrait' },
+    { cle: 'affiches-16-9', ancre: 'affiches-paysage', etiquette: 'Affiches 16:9', titre: 'Pour les écrans larges.', texte: "La mascotte en situation, au format paysage : YouTube, site, présentations.", fond: '', forme: 'carrousel', classe: 'paysage', points: true },
+    { cle: 'mascotte', ancre: 'mascotte', menu: 'Mascotte', etiquette: 'Mascotte', titre: 'Toutes ses humeurs.', texte: "En PNG sur fond transparent et en haute définition, à poser directement dans les vidéos.", fond: 'fond-gris', forme: 'grille', classe: 'mascottes' },
+    { cle: 'badges', ancre: 'badges', menu: 'Badges', etiquette: 'Badges de progression', titre: 'Treize niveaux, de Novice à Forgeron.', texte: "Chaque palier gagné dans l'app, en PNG transparent.", fond: 'fond-noir', forme: 'grille', classe: 'badges' },
+    { cle: 'exploits', ancre: 'exploits', menu: 'Exploits', etiquette: 'Exploits', titre: 'Vingt exploits à débloquer.', texte: "Les récompenses des moments qui comptent : première flamme, journée parfaite, lève-tôt.", fond: '', forme: 'grille', classe: 'exploits' },
+    { cle: 'icones-app', ancre: 'icones', menu: 'Icônes', etiquette: "Icônes de l'app", titre: 'Onze icônes, un même lettrage.', texte: "L'icône classique sert de logo. Les autres se choisissent dans l'app, au fil des saisons.", fond: 'fond-gris', forme: 'grille', classe: 'icones' },
+    { cle: 'planches', ancre: 'planches', menu: 'Planches', etiquette: 'Planches', titre: "Tout l'univers, d'un coup d'œil.", texte: "Les planches complètes, la bannière Google Play et l'écran de démarrage en 4K.", fond: '', forme: 'carrousel', classe: 'planches', points: true }
   ];
 
   var tous = [];          // éléments de la section ouverte dans la loupe
@@ -313,7 +329,7 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
     if (el.type === 'video') {
       return '<video src="' + el.fichier + '" muted loop playsinline preload="metadata" ' + (attrs || '') + '></video>';
     }
-    return '<img src="' + el.fichier + '" alt="' + el.nom + '" loading="lazy" decoding="async" ' + (attrs || '') + '>';
+    return '<img src="' + (el.apercu || el.fichier) + '" alt="' + el.nom + '" loading="lazy" decoding="async" ' + (attrs || '') + '>';
   }
 
   function lienDl(el) {
@@ -428,9 +444,10 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
 
     // Trois captures en éventail dans l'ouverture, sinon la mascotte.
     var hero = (m.captures || []).filter(function (e) { return e.type === 'image'; }).slice(0, 3);
+    if (!hero.length) hero = (m['affiches-9-16'] || []).filter(function (e) { return e.type === 'image'; }).slice(0, 3);
     var vitrine = document.getElementById('vitrine-hero');
     if (hero.length) {
-      vitrine.innerHTML = hero.map(function (e) { return '<img src="' + e.fichier + '" alt="">'; }).join('');
+      vitrine.innerHTML = hero.map(function (e) { return '<img src="' + (e.apercu || e.fichier) + '" alt="">'; }).join('');
     } else {
       vitrine.style.height = '0';
     }
@@ -438,7 +455,7 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
     SECTIONS.forEach(function (s) {
       var liste = m[s.cle] || [];
       if (!liste.length) return;
-      menu.insertAdjacentHTML('beforeend', '<a href="#' + s.ancre + '">' + s.menu + '</a>');
+      if (s.menu) menu.insertAdjacentHTML('beforeend', '<a href="#' + s.ancre + '">' + s.menu + '</a>');
       var fleches = s.forme === 'carrousel'
         ? '<div class="commandes"><button class="fleche g" aria-label="Précédent">' + FLECHE_G + '</button><button class="fleche d" aria-label="Suivant">' + FLECHE_D + '</button></div>'
         : '';
