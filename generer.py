@@ -61,7 +61,7 @@ NOMS = {
     "objectif lire 20 livres": "Un objectif : lire 20 livres", "focusme": "FocusMe",
     "idees": "Idées", "dates importantes": "Dates importantes", "fiche date": "Fiche d'une date",
     "donnees suivies": "Données suivies", "ta forge": "Ta forge", "niveau maitre": "Niveau Maître",
-    "parametres": "Paramètres", "deverrouillage face id": "Déverrouillage Face ID",
+    "parametres": "Paramètres", "widget ecran d accueil": "Widget sur l'écran d'accueil", "deverrouillage face id": "Déverrouillage Face ID",
 }
 
 

@@ -343,8 +343,17 @@
    "octets": 213844
   },
   {
-   "fichier": "visuels/captures/39-deverrouillage-face-id.png",
-   "apercu": "apercus/captures/39-deverrouillage-face-id.jpg",
+   "fichier": "visuels/captures/39-widget-ecran-d-accueil.png",
+   "apercu": "apercus/captures/39-widget-ecran-d-accueil.jpg",
+   "nom": "Widget sur l'écran d'accueil",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1492393
+  },
+  {
+   "fichier": "visuels/captures/40-deverrouillage-face-id.png",
+   "apercu": "apercus/captures/40-deverrouillage-face-id.jpg",
    "nom": "Déverrouillage Face ID",
    "type": "image",
    "l": 1290,
@@ -1191,7 +1200,7 @@
  ],
  "zip": {
   "fichier": "ForgeMe-visuels.zip",
-  "octets": 158516728,
+  "octets": 160009305,
   "url": "https://github.com/Nadir-Bensalah/forgeme-visuels/releases/download/visuels/ForgeMe-visuels.zip"
  }
 }
