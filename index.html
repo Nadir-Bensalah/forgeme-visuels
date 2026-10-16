@@ -260,9 +260,9 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
   <section class="ouverture">
     <div class="halo"></div>
     <img class="icone-hero" src="apercus/icones-app/01-classique.jpg" alt="Icône de ForgeMe">
-    <div class="surtitre">Visuels de lancement</div>
-    <h1>La nouvelle<br><span>ForgeMe.</span></h1>
-    <p class="chapo">Captures de la nouvelle version, affiches, mascotte, badges et icônes. Tout ce qu'il faut pour les vidéos et les publications, au même endroit.</p>
+    <div class="surtitre">Nouvelle version</div>
+    <h1><span>ForgeMe</span><br>Visuels de lancement</h1>
+    <p class="chapo">Captures de la nouvelle version, affiches, mascotte, badges et icônes, à télécharger un par un ou en un seul fichier.</p>
     <div class="actions">
       <a class="pilule grande" id="zip-hero" href="ForgeMe-visuels.zip" download>Tout télécharger</a>
       <a class="pilule grande claire" href="#captures">Voir les visuels</a>
@@ -274,8 +274,8 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
 
   <section class="fin">
     <div class="halo"></div>
-    <h2>Tout, en un clic.</h2>
-    <p id="zip-detail">L'ensemble des visuels dans un seul fichier.</p>
+    <h2>Tout télécharger</h2>
+    <p id="zip-detail">Tous les visuels dans un seul fichier zip.</p>
     <div class="actions"><a class="pilule grande" href="ForgeMe-visuels.zip" download>Télécharger le zip</a></div>
     <div class="stores">
       <a class="store" href="https://apps.apple.com/fr/app/forgeme/id6760335253" target="_blank" rel="noopener">
@@ -306,15 +306,15 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
   var FLECHE_D = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>';
 
   var SECTIONS = [
-    { cle: 'captures', ancre: 'captures', menu: 'Captures', etiquette: 'Captures', titre: 'La nouvelle version, écran par écran.', texte: "Des captures prises sur iPhone, prêtes pour le montage et les publications.", fond: 'fond-gris', forme: 'carrousel', classe: 'captures' },
-    { cle: 'affiches-4-5', ancre: 'affiches', menu: 'Affiches', etiquette: 'Affiches 4:5', titre: 'Une affiche par promesse.', texte: "Le format des publications Instagram et Facebook. Tâches, rituels, objectifs, récompenses.", fond: '', forme: 'carrousel', classe: 'vertical' },
-    { cle: 'affiches-9-16', ancre: 'affiches-portrait', etiquette: 'Affiches 9:16', titre: 'Pensées pour le pouce.', texte: "Au format vertical, pour les stories, Reels et TikTok.", fond: 'fond-noir', forme: 'carrousel', classe: 'portrait' },
-    { cle: 'affiches-16-9', ancre: 'affiches-paysage', etiquette: 'Affiches 16:9', titre: 'Pour les écrans larges.', texte: "La mascotte en situation, au format paysage : YouTube, site, présentations.", fond: '', forme: 'carrousel', classe: 'paysage', points: true },
-    { cle: 'mascotte', ancre: 'mascotte', menu: 'Mascotte', etiquette: 'Mascotte', titre: 'Toutes ses humeurs.', texte: "En PNG sur fond transparent et en haute définition, à poser directement dans les vidéos.", fond: 'fond-gris', forme: 'grille', classe: 'mascottes' },
-    { cle: 'badges', ancre: 'badges', menu: 'Badges', etiquette: 'Badges de progression', titre: 'Treize niveaux, de Novice à Forgeron.', texte: "Chaque palier gagné dans l'app, en PNG transparent.", fond: 'fond-noir', forme: 'grille', classe: 'badges' },
-    { cle: 'exploits', ancre: 'exploits', menu: 'Exploits', etiquette: 'Exploits', titre: 'Vingt exploits à débloquer.', texte: "Les récompenses des moments qui comptent : première flamme, journée parfaite, lève-tôt.", fond: '', forme: 'grille', classe: 'exploits' },
-    { cle: 'icones-app', ancre: 'icones', menu: 'Icônes', etiquette: "Icônes de l'app", titre: 'Onze icônes, un même lettrage.', texte: "L'icône classique sert de logo. Les autres se choisissent dans l'app, au fil des saisons.", fond: 'fond-gris', forme: 'grille', classe: 'icones' },
-    { cle: 'planches', ancre: 'planches', menu: 'Planches', etiquette: 'Planches', titre: "Tout l'univers, d'un coup d'œil.", texte: "Les planches complètes, la bannière Google Play et l'écran de démarrage en 4K.", fond: '', forme: 'carrousel', classe: 'planches', points: true }
+    { cle: 'captures', ancre: 'captures', menu: 'Captures', etiquette: 'Captures', titre: "Captures de l'app", texte: "La nouvelle version, prise sur iPhone, dans l'ordre d'une journée avec ForgeMe.", fond: 'fond-gris', forme: 'carrousel', classe: 'captures' },
+    { cle: 'affiches-4-5', ancre: 'affiches', menu: 'Affiches', etiquette: 'Affiches', titre: 'Affiches au format 4:5', texte: "Pour les publications Instagram et Facebook.", fond: '', forme: 'carrousel', classe: 'vertical' },
+    { cle: 'affiches-9-16', ancre: 'affiches-portrait', etiquette: 'Affiches', titre: 'Affiches au format 9:16', texte: "Pour les stories, les Reels et TikTok.", fond: 'fond-noir', forme: 'carrousel', classe: 'portrait' },
+    { cle: 'affiches-16-9', ancre: 'affiches-paysage', etiquette: 'Affiches', titre: 'Affiches au format 16:9', texte: "Pour YouTube, le site et les présentations.", fond: '', forme: 'carrousel', classe: 'paysage', points: true },
+    { cle: 'mascotte', ancre: 'mascotte', menu: 'Mascotte', etiquette: 'Mascotte', titre: 'La mascotte', texte: "En PNG sur fond transparent, en haute définition, pour les vidéos.", fond: 'fond-gris', forme: 'grille', classe: 'mascottes' },
+    { cle: 'badges', ancre: 'badges', menu: 'Badges', etiquette: 'Badges', titre: 'Les 13 badges de progression', texte: "Les niveaux de l'app, de Novice à Forgeron, en PNG transparent.", fond: 'fond-noir', forme: 'grille', classe: 'badges' },
+    { cle: 'exploits', ancre: 'exploits', menu: 'Exploits', etiquette: 'Exploits', titre: 'Les 20 exploits', texte: "Les récompenses à débloquer dans l'app, en PNG transparent.", fond: '', forme: 'grille', classe: 'exploits' },
+    { cle: 'icones-app', ancre: 'icones', menu: 'Icônes', etiquette: 'Icônes', titre: "Les 11 icônes de l'app", texte: "L'icône classique sert de logo. Les autres se choisissent dans l'app.", fond: 'fond-gris', forme: 'grille', classe: 'icones' },
+    { cle: 'planches', ancre: 'planches', menu: 'Planches', etiquette: 'Planches', titre: 'Les planches', texte: "Planches complètes, bannière Google Play et écran de démarrage en 4K.", fond: '', forme: 'carrousel', classe: 'planches', points: true }
   ];
 
   var tous = [];          // éléments de la section ouverte dans la loupe
@@ -478,7 +478,8 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
 
     if (m.zip) {
       var n = SECTIONS.reduce(function (t, s) { return t + (m[s.cle] || []).length; }, 0);
-      document.getElementById('zip-detail').textContent = n + ' visuels dans un seul fichier, ' + taille(m.zip.octets) + '.';
+      document.getElementById('zip-detail').textContent = n + ' visuels dans un seul fichier zip, ' + taille(m.zip.octets) + '.';
+      if (m.zip.url) document.querySelectorAll('a[href="ForgeMe-visuels.zip"]').forEach(function (a) { a.href = m.zip.url; a.removeAttribute('download'); });
     }
     apparitions();
   }).catch(function () {

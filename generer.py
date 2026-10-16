@@ -13,6 +13,9 @@ import os
 import subprocess
 import zipfile
 
+# Le zip dépasse la limite de 100 Mo d'un fichier GitHub : il est joint à la version (release)
+# « visuels » du dépôt, et la page pointe vers son adresse de téléchargement.
+ZIP_URL = "https://github.com/Nadir-Bensalah/forgeme-visuels/releases/download/visuels/ForgeMe-visuels.zip"
 RACINE = os.path.dirname(os.path.abspath(__file__))
 VISUELS = os.path.join(RACINE, "visuels")
 APERCUS = os.path.join(RACINE, "apercus")
@@ -147,7 +150,7 @@ def main():
             for el in manifeste[section]:
                 z.write(os.path.join(RACINE, el["fichier"]),
                         os.path.join("ForgeMe-visuels", section, os.path.basename(el["fichier"])))
-    manifeste["zip"] = {"fichier": "ForgeMe-visuels.zip", "octets": os.path.getsize(zip_chemin)}
+    manifeste["zip"] = {"fichier": "ForgeMe-visuels.zip", "octets": os.path.getsize(zip_chemin), "url": ZIP_URL}
 
     with open(os.path.join(RACINE, "manifeste.json"), "w", encoding="utf-8") as f:
         json.dump(manifeste, f, ensure_ascii=False, indent=1)
