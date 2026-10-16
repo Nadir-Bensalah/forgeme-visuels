@@ -1,0 +1,173 @@
+{
+ "captures": [],
+ "affiches-16-9": [],
+ "affiches-9-16": [],
+ "mascotte": [
+  {
+   "fichier": "visuels/mascotte/aurevoir.png",
+   "nom": "Au revoir",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 41995
+  },
+  {
+   "fichier": "visuels/mascotte/champion.png",
+   "nom": "Champion",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 50818
+  },
+  {
+   "fichier": "visuels/mascotte/coeur.png",
+   "nom": "Cœur",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 41856
+  },
+  {
+   "fichier": "visuels/mascotte/debranche.png",
+   "nom": "Débranché",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 42646
+  },
+  {
+   "fichier": "visuels/mascotte/encourage.png",
+   "nom": "Encourage",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 40860
+  },
+  {
+   "fichier": "visuels/mascotte/endormi.png",
+   "nom": "Endormi",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 37615
+  },
+  {
+   "fichier": "visuels/mascotte/fier.png",
+   "nom": "Fier",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 43351
+  },
+  {
+   "fichier": "visuels/mascotte/gardien.png",
+   "nom": "Gardien",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 41702
+  },
+  {
+   "fichier": "visuels/mascotte/lecteur.png",
+   "nom": "Lecteur",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 42345
+  },
+  {
+   "fichier": "visuels/mascotte/neutre.png",
+   "nom": "Neutre",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 41775
+  },
+  {
+   "fichier": "visuels/mascotte/oups.png",
+   "nom": "Oups",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 39329
+  },
+  {
+   "fichier": "visuels/mascotte/pensif.png",
+   "nom": "Pensif",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 40680
+  },
+  {
+   "fichier": "visuels/mascotte/premium.png",
+   "nom": "Premium",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 40935
+  },
+  {
+   "fichier": "visuels/mascotte/reveil.png",
+   "nom": "Réveil",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 48167
+  },
+  {
+   "fichier": "visuels/mascotte/salut.png",
+   "nom": "Salut",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 43376
+  },
+  {
+   "fichier": "visuels/mascotte/support.png",
+   "nom": "Support",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 45106
+  },
+  {
+   "fichier": "visuels/mascotte/travail.png",
+   "nom": "Travail",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 48164
+  },
+  {
+   "fichier": "visuels/mascotte/voyageur.png",
+   "nom": "Voyageur",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 51262
+  },
+  {
+   "fichier": "visuels/mascotte/zen.png",
+   "nom": "Zen",
+   "type": "image",
+   "l": 480,
+   "h": 480,
+   "octets": 40237
+  }
+ ],
+ "icone": [
+  {
+   "fichier": "visuels/icone/forgeme-icone-1024.png",
+   "nom": "Icône 1024 px",
+   "type": "image",
+   "l": 1024,
+   "h": 1024,
+   "octets": 56472
+  }
+ ],
+ "zip": {
+  "fichier": "ForgeMe-visuels.zip",
+  "octets": 858641
+ }
+}

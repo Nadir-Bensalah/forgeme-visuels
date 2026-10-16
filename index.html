@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ForgeMe, visuels de lancement</title>
+<meta name="description" content="Captures, affiches, mascotte et icône de la nouvelle version de ForgeMe, à télécharger.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="visuels/icone/forgeme-icone-1024.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --rose: #E31E50;
+  --rose-clair: #FF4D6E;
+  --corail: #FF6A4D;
+  --noir: #000000;
+  --encre: #1D1D1F;
+  --gris-texte: #6E6E73;
+  --gris-fond: #F5F5F7;
+  --blanc: #FFFFFF;
+  --filet: rgba(0, 0, 0, 0.08);
+  --rayon-carte: 18px;
+  --rayon-capture: 34px;
+  --ombre: 0 2px 6px rgba(0,0,0,.04), 0 12px 32px rgba(0,0,0,.08);
+  --ombre-forte: 0 4px 12px rgba(0,0,0,.08), 0 30px 60px rgba(0,0,0,.18);
+  --police: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Inter, "Helvetica Neue", Arial, sans-serif;
+  --largeur: 1120px;
+  --courbe: cubic-bezier(.25, .1, .25, 1);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body { font-family: var(--police); color: var(--encre); background: var(--blanc); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+img { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+
+/* Barre du haut */
+.barre {
+  position: sticky; top: 0; z-index: 50; height: 52px;
+  background: rgba(251, 251, 253, .78); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid var(--filet);
+}
+.barre-dedans { max-width: var(--largeur); height: 100%; margin: 0 auto; padding: 0 22px; display: flex; align-items: center; gap: 28px; }
+.marque { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 19px; letter-spacing: -.01em; }
+.marque img { width: 26px; height: 26px; border-radius: 7px; }
+.marque b { color: var(--rose); }
+.liens { display: flex; gap: 22px; margin-left: auto; font-size: 13px; color: var(--encre); opacity: .82; }
+.liens a:hover { opacity: 1; color: var(--rose); }
+.pilule {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  height: 30px; padding: 0 15px; border-radius: 980px; font-size: 13px; font-weight: 500;
+  background: var(--rose); color: #fff; transition: background .2s var(--courbe), transform .2s var(--courbe);
+  white-space: nowrap;
+}
+.pilule:hover { background: #C01843; }
+.pilule:active { transform: scale(.97); }
+.pilule.grande { height: 48px; padding: 0 28px; font-size: 17px; }
+.pilule.claire { background: rgba(255,255,255,.14); color: #fff; }
+.pilule.claire:hover { background: rgba(255,255,255,.24); }
+.pilule.contour { background: transparent; color: var(--rose); box-shadow: inset 0 0 0 1.5px var(--rose); }
+.pilule.contour:hover { background: rgba(227,30,80,.06); }
+
+/* Ouverture */
+.ouverture {
+  position: relative; overflow: hidden; background: var(--noir); color: #fff; text-align: center;
+  padding: 120px 22px 0; min-height: 88vh; display: flex; flex-direction: column; align-items: center;
+}
+.halo {
+  position: absolute; inset: auto 50% -30% auto; width: 1200px; height: 900px; transform: translateX(50%);
+  background: radial-gradient(closest-side, rgba(227,30,80,.55), rgba(255,106,77,.18) 55%, transparent 75%);
+  filter: blur(20px); pointer-events: none;
+}
+.ouverture .icone-hero { width: 104px; height: 104px; border-radius: 24px; box-shadow: 0 20px 50px rgba(227,30,80,.45); margin-bottom: 30px; position: relative; }
+.surtitre { font-size: 17px; font-weight: 600; color: var(--rose-clair); letter-spacing: .01em; margin-bottom: 12px; position: relative; }
+.ouverture h1 { font-size: clamp(48px, 9vw, 96px); line-height: 1.02; font-weight: 700; letter-spacing: -.035em; position: relative; }
+.ouverture h1 span { background: linear-gradient(90deg, var(--rose-clair), var(--corail)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.ouverture p.chapo { font-size: clamp(19px, 2.4vw, 24px); line-height: 1.4; color: #A1A1A6; max-width: 640px; margin: 22px auto 34px; font-weight: 400; position: relative; }
+.actions { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; position: relative; }
+.vitrine-hero { position: relative; margin-top: 70px; width: 100%; max-width: 1000px; height: 440px; }
+.vitrine-hero img {
+  position: absolute; bottom: -120px; width: 240px; border-radius: var(--rayon-capture);
+  box-shadow: var(--ombre-forte); transition: transform 1.2s var(--courbe), opacity 1.2s var(--courbe);
+}
+.vitrine-hero img:nth-child(1) { left: 50%; transform: translateX(-50%); z-index: 3; width: 270px; bottom: -150px; }
+.vitrine-hero img:nth-child(2) { left: calc(50% - 300px); transform: rotate(-6deg); z-index: 2; opacity: .9; }
+.vitrine-hero img:nth-child(3) { left: calc(50% + 60px); transform: rotate(6deg); z-index: 2; opacity: .9; }
+
+/* Sections */
+section.bloc { padding: 120px 0; }
+.fond-gris { background: var(--gris-fond); }
+.fond-noir { background: var(--noir); color: #fff; }
+.entete { max-width: var(--largeur); margin: 0 auto 56px; padding: 0 22px; display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+.entete .textes { flex: 1 1 420px; }
+.entete .etiquette { font-size: 17px; font-weight: 600; color: var(--rose); margin-bottom: 8px; }
+.entete h2 { font-size: clamp(36px, 5.4vw, 56px); line-height: 1.07; font-weight: 700; letter-spacing: -.028em; }
+.entete p { font-size: 19px; line-height: 1.45; color: var(--gris-texte); margin-top: 14px; max-width: 620px; }
+.fond-noir .entete p { color: #A1A1A6; }
+.fond-noir .entete .etiquette { color: var(--rose-clair); }
+.entete .commandes { display: flex; gap: 10px; align-items: center; }
+
+/* Carrousels */
+.carrousel {
+  display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+  padding: 10px max(22px, calc((100vw - var(--largeur)) / 2 + 22px)) 40px;
+  scroll-padding: 0 max(22px, calc((100vw - var(--largeur)) / 2 + 22px));
+  scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.carrousel::-webkit-scrollbar { display: none; }
+.diapo { scroll-snap-align: start; flex: 0 0 auto; position: relative; }
+.diapo figure { cursor: zoom-in; }
+.diapo img, .diapo video { background: #e8e8ed; }
+.diapo figcaption { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; font-size: 15px; font-weight: 500; }
+.fond-noir .diapo figcaption { color: #F5F5F7; }
+.telecharger {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 500; color: var(--rose);
+  padding: 6px 12px; border-radius: 980px; background: rgba(227,30,80,.08); transition: background .2s;
+}
+.telecharger:hover { background: rgba(227,30,80,.16); }
+.fond-noir .telecharger { color: var(--rose-clair); background: rgba(255,77,110,.14); }
+.telecharger svg { width: 14px; height: 14px; }
+
+.captures .diapo { width: min(300px, 72vw); }
+.captures .diapo img { width: 100%; border-radius: var(--rayon-capture); box-shadow: var(--ombre); transition: transform .5s var(--courbe), box-shadow .5s var(--courbe); }
+.captures .diapo:hover img { transform: translateY(-6px); box-shadow: var(--ombre-forte); }
+
+.paysage .diapo { width: min(880px, 86vw); }
+.paysage .diapo img, .paysage .diapo video { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--rayon-carte); box-shadow: var(--ombre); }
+
+.portrait .diapo { width: min(320px, 70vw); }
+.portrait .diapo img, .portrait .diapo video { width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: var(--rayon-carte); box-shadow: 0 30px 60px rgba(0,0,0,.5); }
+
+.fleche {
+  width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(0,0,0,.06); color: var(--encre); transition: background .2s, opacity .2s;
+}
+.fleche:hover { background: rgba(0,0,0,.1); }
+.fleche:disabled { opacity: .3; cursor: default; }
+.fond-noir .fleche { background: rgba(255,255,255,.12); color: #fff; }
+.fond-noir .fleche:hover { background: rgba(255,255,255,.2); }
+.fleche svg { width: 18px; height: 18px; }
+.points { display: flex; justify-content: center; gap: 8px; margin-top: 4px; }
+.points span { width: 8px; height: 8px; border-radius: 50%; background: rgba(0,0,0,.2); transition: background .3s, width .3s; }
+.points span.actif { background: var(--encre); width: 22px; border-radius: 4px; }
+.fond-noir .points span { background: rgba(255,255,255,.3); }
+.fond-noir .points span.actif { background: #fff; }
+
+/* Grilles */
+.grille { max-width: var(--largeur); margin: 0 auto; padding: 0 22px; display: grid; gap: 20px; }
+.grille.mascottes { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.grille.icones { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.carte {
+  background: var(--blanc); border-radius: var(--rayon-carte); padding: 26px 20px 18px; display: flex; flex-direction: column; align-items: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: transform .4s var(--courbe), box-shadow .4s var(--courbe);
+}
+.carte:hover { transform: translateY(-4px); box-shadow: var(--ombre); }
+.carte .visuel { width: 100%; aspect-ratio: 1; display: grid; place-items: center; cursor: zoom-in; }
+.carte .visuel img { max-height: 100%; object-fit: contain; }
+.grille.icones .carte .visuel img { width: 62%; border-radius: 22%; box-shadow: 0 10px 30px rgba(0,0,0,.14); }
+.carte .pied { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 14px; }
+.carte .nom { font-size: 15px; font-weight: 500; }
+.carte .taille { font-size: 12px; color: var(--gris-texte); margin-top: 2px; white-space: nowrap; }
+.carte .pied > div { min-width: 0; }
+.carte .nom { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rond { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; color: var(--rose); background: rgba(227,30,80,.08); transition: background .2s, transform .2s; }
+.rond:hover { background: rgba(227,30,80,.16); }
+.rond:active { transform: scale(.94); }
+.rond svg { width: 16px; height: 16px; }
+.fond-gris .carte { background: var(--blanc); }
+section:not(.fond-gris) .carte { background: var(--gris-fond); }
+
+/* Fin */
+.fin { text-align: center; padding: 140px 22px 120px; background: var(--noir); color: #fff; position: relative; overflow: hidden; }
+.fin .halo { inset: auto 50% -60% auto; opacity: .8; }
+.fin h2 { font-size: clamp(40px, 6vw, 64px); font-weight: 700; letter-spacing: -.03em; line-height: 1.05; position: relative; }
+.fin p { font-size: 19px; color: #A1A1A6; margin: 18px auto 34px; max-width: 520px; position: relative; }
+.fin .actions { margin-bottom: 70px; }
+.stores { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; position: relative; }
+.store {
+  display: flex; align-items: center; gap: 12px; padding: 12px 22px; border-radius: 14px;
+  background: rgba(255,255,255,.08); box-shadow: inset 0 0 0 1px rgba(255,255,255,.14); text-align: left; transition: background .2s;
+}
+.store:hover { background: rgba(255,255,255,.14); }
+.store svg { width: 26px; height: 26px; flex: none; }
+.store small { display: block; font-size: 11px; color: #A1A1A6; }
+.store strong { display: block; font-size: 17px; font-weight: 600; }
+.mention { font-size: 12px; color: #6E6E73; margin-top: 60px; position: relative; }
+
+/* Agrandissement */
+.loupe {
+  position: fixed; inset: 0; z-index: 100; background: rgba(0,0,0,.92); display: none; align-items: center; justify-content: center;
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); opacity: 0; transition: opacity .3s var(--courbe);
+}
+.loupe.ouverte { display: flex; }
+.loupe.visible { opacity: 1; }
+.loupe img, .loupe video { max-width: 92vw; max-height: 82vh; border-radius: 14px; box-shadow: 0 30px 80px rgba(0,0,0,.6); transform: scale(.96); transition: transform .4s var(--courbe); }
+.loupe.visible img, .loupe.visible video { transform: scale(1); }
+.loupe .fermer, .loupe .prec, .loupe .suiv {
+  position: absolute; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(255,255,255,.12); color: #fff; transition: background .2s;
+}
+.loupe .fermer:hover, .loupe .prec:hover, .loupe .suiv:hover { background: rgba(255,255,255,.22); }
+.loupe .fermer { top: 20px; right: 20px; }
+.loupe .prec { left: 20px; top: 50%; transform: translateY(-50%); }
+.loupe .suiv { right: 20px; top: 50%; transform: translateY(-50%); }
+.loupe svg { width: 20px; height: 20px; }
+.loupe .bas { position: absolute; bottom: 22px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 16px; color: #F5F5F7; font-size: 15px; }
+.loupe .bas .compte { color: #A1A1A6; }
+
+/* Apparition au défilement */
+.apparait { opacity: 0; transform: translateY(30px); transition: opacity .9s var(--courbe), transform .9s var(--courbe); }
+.apparait.vu { opacity: 1; transform: none; }
+
+@media (max-width: 734px) {
+  .liens { display: none; }
+  .barre .pilule { margin-left: auto; }
+  section.bloc { padding: 80px 0; }
+  .ouverture { padding-top: 80px; min-height: auto; }
+  .vitrine-hero { height: 330px; }
+  .vitrine-hero img { width: 170px; bottom: -90px; }
+  .vitrine-hero img:nth-child(1) { width: 200px; bottom: -110px; }
+  .vitrine-hero img:nth-child(2) { left: calc(50% - 200px); }
+  .vitrine-hero img:nth-child(3) { left: calc(50% + 30px); }
+  .entete { margin-bottom: 36px; }
+  .entete .commandes .fleche { display: none; }
+  .grille.mascottes { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .loupe .prec, .loupe .suiv { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .apparait { opacity: 1; transform: none; transition: none; }
+  .carrousel { scroll-behavior: auto; }
+}
+</style>
+</head>
+<body>
+
+<header class="barre">
+  <div class="barre-dedans">
+    <a class="marque" href="#haut"><img src="visuels/icone/forgeme-icone-1024.png" alt=""><span>ForgeMe<b>.</b></span></a>
+    <nav class="liens" id="liens"></nav>
+    <a class="pilule" id="zip-barre" href="ForgeMe-visuels.zip" download>Tout télécharger</a>
+  </div>
+</header>
+
+<main id="haut">
+  <section class="ouverture">
+    <div class="halo"></div>
+    <img class="icone-hero" src="visuels/icone/forgeme-icone-1024.png" alt="Icône de ForgeMe">
+    <div class="surtitre">Visuels de lancement</div>
+    <h1>La nouvelle<br><span>ForgeMe.</span></h1>
+    <p class="chapo">Captures de la nouvelle version, affiches, mascotte et icône. Tout ce qu'il faut pour les vidéos et les publications, au même endroit.</p>
+    <div class="actions">
+      <a class="pilule grande" id="zip-hero" href="ForgeMe-visuels.zip" download>Tout télécharger</a>
+      <a class="pilule grande claire" href="#captures">Voir les visuels</a>
+    </div>
+    <div class="vitrine-hero" id="vitrine-hero" aria-hidden="true"></div>
+  </section>
+
+  <div id="sections"></div>
+
+  <section class="fin">
+    <div class="halo"></div>
+    <h2>Tout, en un clic.</h2>
+    <p id="zip-detail">L'ensemble des visuels dans un seul fichier.</p>
+    <div class="actions"><a class="pilule grande" href="ForgeMe-visuels.zip" download>Télécharger le zip</a></div>
+    <div class="stores">
+      <a class="store" href="https://apps.apple.com/fr/app/forgeme/id6760335253" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.37 12.6c-.02-2.28 1.86-3.38 1.95-3.43-1.06-1.55-2.71-1.77-3.3-1.79-1.4-.14-2.74.83-3.45.83-.71 0-1.81-.81-2.98-.79-1.53.02-2.94.89-3.73 2.26-1.59 2.76-.41 6.85 1.14 9.09.76 1.1 1.66 2.33 2.85 2.29 1.14-.05 1.57-.74 2.95-.74 1.38 0 1.77.74 2.98.71 1.23-.02 2.01-1.12 2.76-2.22.87-1.27 1.23-2.5 1.25-2.57-.03-.01-2.4-.92-2.42-3.64zM14.1 5.9c.63-.76 1.05-1.82.94-2.88-.91.04-2.01.61-2.66 1.37-.58.67-1.09 1.75-.95 2.79 1.01.08 2.04-.51 2.67-1.28z"/></svg>
+        <span><small>Télécharger dans</small><strong>l'App Store</strong></span>
+      </a>
+      <a class="store" href="https://play.google.com/store/apps/details?id=com.forgeme.app" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 2.2c-.2.2-.3.6-.3 1v17.6c0 .4.1.8.3 1l.1.1 9.9-9.9v-.2L3.7 2.1l-.1.1zm13.3 13.2-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-3.9 2.2-.1 0zm-.1.1L13.4 12 3.6 21.8c.4.4 1 .4 1.7.1l11.5-6.4M16.8 8.5 5.3 2c-.7-.4-1.3-.3-1.7.1l9.8 9.9 3.4-3.5z"/></svg>
+        <span><small>Disponible sur</small><strong>Google Play</strong></span>
+      </a>
+    </div>
+    <div class="mention">ForgeMe. Visuels réservés à la communication autour de l'application.</div>
+  </section>
+</main>
+
+<div class="loupe" id="loupe" role="dialog" aria-modal="true" aria-label="Visuel agrandi">
+  <button class="fermer" id="loupe-fermer" aria-label="Fermer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="prec" id="loupe-prec" aria-label="Précédent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+  <div id="loupe-media"></div>
+  <button class="suiv" id="loupe-suiv" aria-label="Suivant"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+  <div class="bas"><span id="loupe-nom"></span><span class="compte" id="loupe-compte"></span><a class="telecharger" id="loupe-dl" download>Télécharger</a></div>
+</div>
+
+<script>
+(function () {
+  var ICONE_DL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg>';
+  var FLECHE_G = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>';
+  var FLECHE_D = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>';
+
+  var SECTIONS = [
+    { cle: 'captures', ancre: 'captures', menu: 'Captures', etiquette: 'Captures', titre: 'La nouvelle version, écran par écran.', texte: "Des captures prises sur iPhone, prêtes pour le montage et les publications.", fond: 'fond-gris', forme: 'carrousel', classe: 'captures' },
+    { cle: 'affiches-16-9', ancre: 'affiches-paysage', menu: 'Affiches 16:9', etiquette: 'Affiches 16:9', titre: 'Pour les écrans larges.', texte: "Pistes d'affiches autour de la mascotte, au format paysage.", fond: '', forme: 'carrousel', classe: 'paysage', points: true },
+    { cle: 'affiches-9-16', ancre: 'affiches-portrait', menu: 'Affiches 9:16', etiquette: 'Affiches 9:16', titre: 'Pensées pour le pouce.', texte: "Les mêmes pistes au format vertical, pour les stories, Reels et TikTok.", fond: 'fond-noir', forme: 'carrousel', classe: 'portrait' },
+    { cle: 'mascotte', ancre: 'mascotte', menu: 'Mascotte', etiquette: 'Mascotte', titre: 'Toutes ses humeurs.', texte: "En PNG sur fond transparent, à poser directement dans les vidéos.", fond: 'fond-gris', forme: 'grille', classe: 'mascottes' },
+    { cle: 'icone', ancre: 'icone', menu: 'Icône', etiquette: 'Icône', titre: "L'icône, dans toutes ses versions.", texte: "À utiliser comme logo de l'application.", fond: '', forme: 'grille', classe: 'icones' }
+  ];
+
+  var tous = [];          // éléments de la section ouverte dans la loupe
+  var indexLoupe = 0;
+
+  function taille(o) {
+    if (!o) return '';
+    return o > 1e6 ? (o / 1e6).toFixed(1).replace('.', ',') + ' Mo' : Math.round(o / 1e3) + ' Ko';
+  }
+
+  function media(el, attrs) {
+    if (el.type === 'video') {
+      return '<video src="' + el.fichier + '" muted loop playsinline preload="metadata" ' + (attrs || '') + '></video>';
+    }
+    return '<img src="' + el.fichier + '" alt="' + el.nom + '" loading="lazy" decoding="async" ' + (attrs || '') + '>';
+  }
+
+  function lienDl(el) {
+    return '<a class="telecharger" href="' + el.fichier + '" download aria-label="Télécharger ' + el.nom + '">' + ICONE_DL + '<span>Télécharger</span></a>';
+  }
+
+  function construireCarrousel(s, liste) {
+    var html = '<div class="carrousel ' + s.classe + '" data-section="' + s.cle + '">';
+    liste.forEach(function (el, i) {
+      html += '<div class="diapo"><figure data-i="' + i + '">' + media(el) + '</figure>' +
+        '<figcaption><span>' + el.nom + '</span>' + lienDl(el) + '</figcaption></div>';
+    });
+    html += '</div>';
+    if (s.points) {
+      html += '<div class="points">' + liste.map(function (_, i) { return '<span' + (i === 0 ? ' class="actif"' : '') + '></span>'; }).join('') + '</div>';
+    }
+    return html;
+  }
+
+  function construireGrille(s, liste) {
+    var html = '<div class="grille ' + s.classe + '">';
+    liste.forEach(function (el, i) {
+      var dims = el.l && el.h ? el.l + ' × ' + el.h : '';
+      html += '<div class="carte apparait"><div class="visuel" data-i="' + i + '">' + media(el) + '</div>' +
+        '<div class="pied"><div><div class="nom">' + el.nom + '</div><div class="taille">' + dims + '</div></div>' +
+        '<a class="rond" href="' + el.fichier + '" download aria-label="Télécharger ' + el.nom + '" title="Télécharger">' + ICONE_DL + '</a></div></div>';
+    });
+    return html + '</div>';
+  }
+
+  function brancherCarrousel(bloc) {
+    var piste = bloc.querySelector('.carrousel');
+    if (!piste) return;
+    var prec = bloc.querySelector('.fleche.g');
+    var suiv = bloc.querySelector('.fleche.d');
+    var points = bloc.querySelectorAll('.points span');
+    function pas() { var d = piste.querySelector('.diapo'); return d ? d.getBoundingClientRect().width + 24 : 300; }
+    function maj() {
+      var max = piste.scrollWidth - piste.clientWidth - 2;
+      if (prec) prec.disabled = piste.scrollLeft <= 2;
+      if (suiv) suiv.disabled = piste.scrollLeft >= max;
+      if (points.length) {
+        var i = Math.round(piste.scrollLeft / pas());
+        points.forEach(function (p, j) { p.classList.toggle('actif', j === Math.min(i, points.length - 1)); });
+      }
+    }
+    if (prec) prec.addEventListener('click', function () { piste.scrollBy({ left: -pas(), behavior: 'smooth' }); });
+    if (suiv) suiv.addEventListener('click', function () { piste.scrollBy({ left: pas(), behavior: 'smooth' }); });
+    piste.addEventListener('scroll', function () { window.requestAnimationFrame(maj); }, { passive: true });
+    window.addEventListener('resize', maj);
+    maj();
+  }
+
+  function ouvrirLoupe(liste, i) {
+    tous = liste; indexLoupe = i;
+    var loupe = document.getElementById('loupe');
+    afficherLoupe();
+    loupe.classList.add('ouverte');
+    requestAnimationFrame(function () { loupe.classList.add('visible'); });
+    document.body.style.overflow = 'hidden';
+  }
+  function afficherLoupe() {
+    var el = tous[indexLoupe];
+    document.getElementById('loupe-media').innerHTML = el.type === 'video'
+      ? '<video src="' + el.fichier + '" controls autoplay playsinline></video>'
+      : '<img src="' + el.fichier + '" alt="' + el.nom + '">';
+    document.getElementById('loupe-nom').textContent = el.nom;
+    document.getElementById('loupe-compte').textContent = (indexLoupe + 1) + ' / ' + tous.length;
+    var dl = document.getElementById('loupe-dl');
+    dl.href = el.fichier;
+  }
+  function fermerLoupe() {
+    var loupe = document.getElementById('loupe');
+    loupe.classList.remove('visible');
+    setTimeout(function () { loupe.classList.remove('ouverte'); document.getElementById('loupe-media').innerHTML = ''; }, 300);
+    document.body.style.overflow = '';
+  }
+  function decaler(n) { indexLoupe = (indexLoupe + n + tous.length) % tous.length; afficherLoupe(); }
+
+  document.getElementById('loupe-fermer').addEventListener('click', fermerLoupe);
+  document.getElementById('loupe-prec').addEventListener('click', function () { decaler(-1); });
+  document.getElementById('loupe-suiv').addEventListener('click', function () { decaler(1); });
+  document.getElementById('loupe').addEventListener('click', function (e) { if (e.target.id === 'loupe' || e.target.id === 'loupe-media') fermerLoupe(); });
+  document.addEventListener('keydown', function (e) {
+    if (!document.getElementById('loupe').classList.contains('ouverte')) return;
+    if (e.key === 'Escape') fermerLoupe();
+    if (e.key === 'ArrowLeft') decaler(-1);
+    if (e.key === 'ArrowRight') decaler(1);
+  });
+  // Balayage sur téléphone dans la loupe.
+  var departX = null;
+  document.getElementById('loupe').addEventListener('touchstart', function (e) { departX = e.touches[0].clientX; }, { passive: true });
+  document.getElementById('loupe').addEventListener('touchend', function (e) {
+    if (departX === null) return;
+    var dx = e.changedTouches[0].clientX - departX;
+    if (Math.abs(dx) > 50) decaler(dx < 0 ? 1 : -1);
+    departX = null;
+  });
+
+  function apparitions() {
+    var cibles = document.querySelectorAll('.apparait');
+    if (!('IntersectionObserver' in window)) { cibles.forEach(function (c) { c.classList.add('vu'); }); return; }
+    var obs = new IntersectionObserver(function (entrees) {
+      entrees.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('vu'); obs.unobserve(en.target); } });
+    }, { threshold: 0.15 });
+    cibles.forEach(function (c) { obs.observe(c); });
+  }
+
+  fetch('manifeste.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (m) {
+    var conteneur = document.getElementById('sections');
+    var menu = document.getElementById('liens');
+
+    // Trois captures en éventail dans l'ouverture, sinon la mascotte.
+    var hero = (m.captures || []).filter(function (e) { return e.type === 'image'; }).slice(0, 3);
+    var vitrine = document.getElementById('vitrine-hero');
+    if (hero.length) {
+      vitrine.innerHTML = hero.map(function (e) { return '<img src="' + e.fichier + '" alt="">'; }).join('');
+    } else {
+      vitrine.style.height = '0';
+    }
+
+    SECTIONS.forEach(function (s) {
+      var liste = m[s.cle] || [];
+      if (!liste.length) return;
+      menu.insertAdjacentHTML('beforeend', '<a href="#' + s.ancre + '">' + s.menu + '</a>');
+      var fleches = s.forme === 'carrousel'
+        ? '<div class="commandes"><button class="fleche g" aria-label="Précédent">' + FLECHE_G + '</button><button class="fleche d" aria-label="Suivant">' + FLECHE_D + '</button></div>'
+        : '';
+      var bloc = document.createElement('section');
+      bloc.className = 'bloc ' + s.fond;
+      bloc.id = s.ancre;
+      bloc.innerHTML = '<div class="entete apparait"><div class="textes"><div class="etiquette">' + s.etiquette + '</div><h2>' + s.titre + '</h2><p>' + s.texte + '</p></div>' + fleches + '</div>' +
+        (s.forme === 'carrousel' ? construireCarrousel(s, liste) : construireGrille(s, liste));
+      conteneur.appendChild(bloc);
+      if (s.forme === 'carrousel') brancherCarrousel(bloc);
+      bloc.querySelectorAll('[data-i]').forEach(function (cible) {
+        cible.addEventListener('click', function () { ouvrirLoupe(liste, Number(cible.getAttribute('data-i'))); });
+      });
+      // Les vidéos des carrousels se lancent seules, sans le son, quand on les voit.
+      bloc.querySelectorAll('.carrousel video').forEach(function (v) {
+        if (!('IntersectionObserver' in window)) return;
+        new IntersectionObserver(function (en) { en.forEach(function (x) { x.isIntersecting ? v.play().catch(function () {}) : v.pause(); }); }, { threshold: .5 }).observe(v);
+      });
+    });
+
+    if (m.zip) {
+      var n = SECTIONS.reduce(function (t, s) { return t + (m[s.cle] || []).length; }, 0);
+      document.getElementById('zip-detail').textContent = n + ' visuels dans un seul fichier, ' + taille(m.zip.octets) + '.';
+    }
+    apparitions();
+  }).catch(function () {
+    document.getElementById('sections').innerHTML = '<p style="text-align:center;padding:80px 22px;color:#6E6E73">Les visuels arrivent bientôt.</p>';
+  });
+})();
+</script>
+</body>
+</html>
