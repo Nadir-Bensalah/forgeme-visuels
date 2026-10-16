@@ -48,6 +48,17 @@ NOMS = {
     "icones app": "Icônes de l'app", "badges progression": "Badges de progression",
     "banniere google play": "Bannière Google Play", "apercus app": "Aperçus de l'app",
     "ecran de demarrage 4k": "Écran de démarrage 4K",
+    "accueil bonjour lea": "Accueil, bonjour Léa", "accueil progression du jour": "Progression du jour",
+    "humeur du jour": "Humeur du jour", "accueil quetes du jour": "Quêtes du jour",
+    "accueil charge de la semaine": "Charge de la semaine", "accueil raccourcis": "Raccourcis",
+    "date du jour carrousel": "Dates du jour, en carrousel", "taches du jour": "Tâches du jour",
+    "saisie en une phrase": "Créer une tâche en une phrase", "fiche tache sante": "Fiche d'une tâche",
+    "fiche tache perso": "Fiche d'une tâche, perso", "taches terminees": "Tâches terminées",
+    "taches recurrentes": "Tâches récurrentes", "rituel meditation": "Un rituel : méditation",
+    "objectif lire 20 livres": "Un objectif : lire 20 livres", "focusme": "FocusMe",
+    "idees": "Idées", "dates importantes": "Dates importantes", "fiche date": "Fiche d'une date",
+    "donnees suivies": "Données suivies", "ta forge": "Ta forge", "niveau maitre": "Niveau Maître",
+    "parametres": "Paramètres", "deverrouillage face id": "Déverrouillage Face ID",
 }
 
 
@@ -123,6 +134,12 @@ def main():
             p = os.path.join(racine, f)
             if p not in attendus:
                 os.remove(p)
+
+    # Les trois captures de l'ouverture, en éventail (visuels/vedettes.txt, une par ligne).
+    vedettes = os.path.join(VISUELS, "vedettes.txt")
+    if os.path.exists(vedettes):
+        noms = [l.strip() for l in open(vedettes, encoding="utf-8") if l.strip()]
+        manifeste["vedettes"] = [el for n in noms for el in manifeste["captures"] if os.path.basename(el["fichier"]) == n]
 
     zip_chemin = os.path.join(RACINE, "ForgeMe-visuels.zip")
     with zipfile.ZipFile(zip_chemin, "w", zipfile.ZIP_STORED) as z:

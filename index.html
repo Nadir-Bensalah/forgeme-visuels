@@ -443,7 +443,7 @@ section:not(.fond-gris) .carte { background: var(--gris-fond); }
     var menu = document.getElementById('liens');
 
     // Trois captures en éventail dans l'ouverture, sinon la mascotte.
-    var hero = (m.captures || []).filter(function (e) { return e.type === 'image'; }).slice(0, 3);
+    var hero = (m.vedettes && m.vedettes.length ? m.vedettes : (m.captures || [])).filter(function (e) { return e.type === 'image'; }).slice(0, 3);
     if (!hero.length) hero = (m['affiches-9-16'] || []).filter(function (e) { return e.type === 'image'; }).slice(0, 3);
     var vitrine = document.getElementById('vitrine-hero');
     if (hero.length) {

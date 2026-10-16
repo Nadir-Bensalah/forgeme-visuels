@@ -1,5 +1,357 @@
 {
- "captures": [],
+ "captures": [
+  {
+   "fichier": "visuels/captures/01-bienvenue.png",
+   "apercu": "apercus/captures/01-bienvenue.jpg",
+   "nom": "Bienvenue",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 3541788
+  },
+  {
+   "fichier": "visuels/captures/02-accueil-bonjour-lea.png",
+   "apercu": "apercus/captures/02-accueil-bonjour-lea.jpg",
+   "nom": "Accueil, bonjour Léa",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1477281
+  },
+  {
+   "fichier": "visuels/captures/03-accueil-progression-du-jour.png",
+   "apercu": "apercus/captures/03-accueil-progression-du-jour.jpg",
+   "nom": "Progression du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1479650
+  },
+  {
+   "fichier": "visuels/captures/04-humeur-du-jour.png",
+   "apercu": "apercus/captures/04-humeur-du-jour.jpg",
+   "nom": "Humeur du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1151024
+  },
+  {
+   "fichier": "visuels/captures/05-accueil-quetes-du-jour.png",
+   "apercu": "apercus/captures/05-accueil-quetes-du-jour.jpg",
+   "nom": "Quêtes du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 820713
+  },
+  {
+   "fichier": "visuels/captures/06-accueil-charge-de-la-semaine.png",
+   "apercu": "apercus/captures/06-accueil-charge-de-la-semaine.jpg",
+   "nom": "Charge de la semaine",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1152733
+  },
+  {
+   "fichier": "visuels/captures/07-accueil-raccourcis.png",
+   "apercu": "apercus/captures/07-accueil-raccourcis.jpg",
+   "nom": "Raccourcis",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1509439
+  },
+  {
+   "fichier": "visuels/captures/08-citation-du-jour.png",
+   "apercu": "apercus/captures/08-citation-du-jour.jpg",
+   "nom": "Citation du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1950120
+  },
+  {
+   "fichier": "visuels/captures/09-articles-et-conseils.png",
+   "apercu": "apercus/captures/09-articles-et-conseils.jpg",
+   "nom": "Articles et conseils",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 2360857
+  },
+  {
+   "fichier": "visuels/captures/10-article.png",
+   "apercu": "apercus/captures/10-article.jpg",
+   "nom": "Article",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1356569
+  },
+  {
+   "fichier": "visuels/captures/11-date-du-jour.png",
+   "apercu": "apercus/captures/11-date-du-jour.jpg",
+   "nom": "Date du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 2642375
+  },
+  {
+   "fichier": "visuels/captures/12-date-du-jour-carrousel.png",
+   "apercu": "apercus/captures/12-date-du-jour-carrousel.jpg",
+   "nom": "Dates du jour, en carrousel",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 2347396
+  },
+  {
+   "fichier": "visuels/captures/13-taches-du-jour.png",
+   "apercu": "apercus/captures/13-taches-du-jour.jpg",
+   "nom": "Tâches du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 649589
+  },
+  {
+   "fichier": "visuels/captures/14-saisie-en-une-phrase.png",
+   "apercu": "apercus/captures/14-saisie-en-une-phrase.jpg",
+   "nom": "Créer une tâche en une phrase",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 753289
+  },
+  {
+   "fichier": "visuels/captures/15-fiche-tache-sante.png",
+   "apercu": "apercus/captures/15-fiche-tache-sante.jpg",
+   "nom": "Fiche d'une tâche",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 2156767
+  },
+  {
+   "fichier": "visuels/captures/16-fiche-tache-perso.png",
+   "apercu": "apercus/captures/16-fiche-tache-perso.jpg",
+   "nom": "Fiche d'une tâche, perso",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 2135738
+  },
+  {
+   "fichier": "visuels/captures/17-taches-terminees.png",
+   "apercu": "apercus/captures/17-taches-terminees.jpg",
+   "nom": "Tâches terminées",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 609659
+  },
+  {
+   "fichier": "visuels/captures/18-taches-recurrentes.png",
+   "apercu": "apercus/captures/18-taches-recurrentes.jpg",
+   "nom": "Tâches récurrentes",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 568787
+  },
+  {
+   "fichier": "visuels/captures/19-rituels.png",
+   "apercu": "apercus/captures/19-rituels.jpg",
+   "nom": "Rituels",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1477922
+  },
+  {
+   "fichier": "visuels/captures/20-rituels-du-jour.png",
+   "apercu": "apercus/captures/20-rituels-du-jour.jpg",
+   "nom": "Rituels du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 618486
+  },
+  {
+   "fichier": "visuels/captures/21-rituel-meditation.png",
+   "apercu": "apercus/captures/21-rituel-meditation.jpg",
+   "nom": "Un rituel : méditation",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1485079
+  },
+  {
+   "fichier": "visuels/captures/22-objectifs.png",
+   "apercu": "apercus/captures/22-objectifs.jpg",
+   "nom": "Objectifs",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1243990
+  },
+  {
+   "fichier": "visuels/captures/23-objectif-lire-20-livres.png",
+   "apercu": "apercus/captures/23-objectif-lire-20-livres.jpg",
+   "nom": "Un objectif : lire 20 livres",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1360075
+  },
+  {
+   "fichier": "visuels/captures/24-focusme.png",
+   "apercu": "apercus/captures/24-focusme.jpg",
+   "nom": "FocusMe",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 943926
+  },
+  {
+   "fichier": "visuels/captures/25-journal.png",
+   "apercu": "apercus/captures/25-journal.jpg",
+   "nom": "Journal",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1282707
+  },
+  {
+   "fichier": "visuels/captures/26-idees.png",
+   "apercu": "apercus/captures/26-idees.jpg",
+   "nom": "Idées",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1523850
+  },
+  {
+   "fichier": "visuels/captures/27-dates-importantes.png",
+   "apercu": "apercus/captures/27-dates-importantes.jpg",
+   "nom": "Dates importantes",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 4735363
+  },
+  {
+   "fichier": "visuels/captures/28-fiche-date.png",
+   "apercu": "apercus/captures/28-fiche-date.jpg",
+   "nom": "Fiche d'une date",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 2602209
+  },
+  {
+   "fichier": "visuels/captures/29-calendrier-des-dates.png",
+   "apercu": "apercus/captures/29-calendrier-des-dates.jpg",
+   "nom": "Calendrier des dates",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 3443231
+  },
+  {
+   "fichier": "visuels/captures/30-courses.png",
+   "apercu": "apercus/captures/30-courses.jpg",
+   "nom": "Courses",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 500575
+  },
+  {
+   "fichier": "visuels/captures/31-donnees-suivies.png",
+   "apercu": "apercus/captures/31-donnees-suivies.jpg",
+   "nom": "Données suivies",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 455324
+  },
+  {
+   "fichier": "visuels/captures/32-statistiques.png",
+   "apercu": "apercus/captures/32-statistiques.jpg",
+   "nom": "Statistiques",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 503657
+  },
+  {
+   "fichier": "visuels/captures/33-citations-favorites.png",
+   "apercu": "apercus/captures/33-citations-favorites.jpg",
+   "nom": "Citations favorites",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 524168
+  },
+  {
+   "fichier": "visuels/captures/34-ta-forge.png",
+   "apercu": "apercus/captures/34-ta-forge.jpg",
+   "nom": "Ta forge",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1093758
+  },
+  {
+   "fichier": "visuels/captures/35-exploits.png",
+   "apercu": "apercus/captures/35-exploits.jpg",
+   "nom": "Exploits",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 674384
+  },
+  {
+   "fichier": "visuels/captures/36-niveau-maitre.png",
+   "apercu": "apercus/captures/36-niveau-maitre.jpg",
+   "nom": "Niveau Maître",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 2227397
+  },
+  {
+   "fichier": "visuels/captures/37-parcourir-les-packs.png",
+   "apercu": "apercus/captures/37-parcourir-les-packs.jpg",
+   "nom": "Parcourir les packs",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 579520
+  },
+  {
+   "fichier": "visuels/captures/38-parametres.png",
+   "apercu": "apercus/captures/38-parametres.jpg",
+   "nom": "Paramètres",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 213844
+  },
+  {
+   "fichier": "visuels/captures/39-deverrouillage-face-id.png",
+   "apercu": "apercus/captures/39-deverrouillage-face-id.jpg",
+   "nom": "Déverrouillage Face ID",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 11498765
+  }
+ ],
  "affiches-4-5": [
   {
    "fichier": "visuels/affiches-4-5/01-taches-moins-de-chaos.png",
@@ -808,8 +1160,37 @@
    "octets": 8214345
   }
  ],
+ "vedettes": [
+  {
+   "fichier": "visuels/captures/02-accueil-bonjour-lea.png",
+   "apercu": "apercus/captures/02-accueil-bonjour-lea.jpg",
+   "nom": "Accueil, bonjour Léa",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1477281
+  },
+  {
+   "fichier": "visuels/captures/13-taches-du-jour.png",
+   "apercu": "apercus/captures/13-taches-du-jour.jpg",
+   "nom": "Tâches du jour",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 649589
+  },
+  {
+   "fichier": "visuels/captures/23-objectif-lire-20-livres.png",
+   "apercu": "apercus/captures/23-objectif-lire-20-livres.jpg",
+   "nom": "Un objectif : lire 20 livres",
+   "type": "image",
+   "l": 1290,
+   "h": 2796,
+   "octets": 1360075
+  }
+ ],
  "zip": {
   "fichier": "ForgeMe-visuels.zip",
-  "octets": 90858092
+  "octets": 158516728
  }
 }
